@@ -12,7 +12,9 @@ import io.cucumber.junit.CucumberOptions;
 				glue = "stepDefs",
 		monochrome = true, 
 		plugin = {
-		"pretty" })
+				"pretty",
+                "html:target/cucmber",
+                "json:target/cucumber.json" })
 		//tags = ("@Sanity"))
 public class Runner {
 
