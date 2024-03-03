@@ -16,6 +16,7 @@ import io.cucumber.junit.CucumberOptions;
                 "html:target/cucmber",
                 "json:target/cucumber.json" })
 		//tags = ("@Sanity"))
+
 public class Runner {
 
 }
